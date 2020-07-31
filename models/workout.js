@@ -1,6 +1,6 @@
 "use strict";
 
-const mongoose = require(`mongoose`);
+const mongoose = require('mongoose');
 
 const Schema = mongoose.Schema;
 
@@ -55,4 +55,4 @@ workoutSchema.virtual("totalDuration").get(function () {
     }, 0);
 });
 
-module.exports = mongoose.model(`Workout`, workoutSchema);
+module.exports = mongoose.model('Workout', workoutSchema);
