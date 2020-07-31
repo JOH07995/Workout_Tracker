@@ -35,7 +35,6 @@
 ## Deployment
 
 #### Locally
-_Note: This application requires a local mongo instance_
 
 To install and use locally,
 
@@ -56,14 +55,3 @@ node server.js
 
 #### Online
 All that being said, you can find the deployed application on Heroku. Navigate to the [Workout Tracker](https://workout-tracker-tkj.herokuapp.com/) online and save yourself some time and effort!
-
-
-# Technologies
-- MongoDB
-- Mongoose
-- Express
-- Chart.js
-- JavaScript
-- HTML5
-- CSS
-- jQuery 
