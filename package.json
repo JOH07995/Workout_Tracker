@@ -9,6 +9,10 @@
     "watch": "nodemon server.js",
     "seed": "node seeders/seed.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JOH07995/Workout_Tracker.git"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
