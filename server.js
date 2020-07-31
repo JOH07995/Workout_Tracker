@@ -11,8 +11,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static('public'));
 
-require('./routes/api-routes')(app);
-require('./routes/html-routes')(app);
+require('./routes/api_routes')(app);
+require('./routes/html_routes')(app);
 
 mongoose.Promise = global.Promise;
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/workout', {
@@ -20,5 +20,5 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/workout', {
 });
 
 app.listen(PORT, () => {
-    console.log('App running on http://localhost:${PORT}');
+    console.log(`App running on http://localhost:+${PORT}`);
 });
